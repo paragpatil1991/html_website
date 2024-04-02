@@ -10,6 +10,7 @@
 	color: white;
 	display: flex;
 	align-items: center;
+	justify-content:space-evenly;
 }
 
 .nav-logo{
@@ -53,6 +54,135 @@
 	margin-left: 4px;
 }
 
+
+/** Box3 **/ 
+
 .nav-searchbar{
 	display: flex;
+	background-color: pink;
+	width: 620px;
+	height: 40px;
+	border-radius: 5px;
+	justify-content: space-evenly;
+}
+
+.search-select {
+	background-color:#F3F3F3;
+	width: 50px;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: none;
+}
+
+.search-input {
+	width: 100%;
+	font-size: 1rem;
+	border: none;
+}
+
+.search-icon {
+	width:45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	background-color: rgba(255, 200, 0, 0.393);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+}
+
+.nav-searchbar:hover { border: 2px solid orange;
+
+}
+
+/** Box 4 **/
+
+span {
+	font-size: 0.7rem;
+}
+
+.nav-second {
+	font-size: 0.85rem;
+	font-weight: 700;
+}
+
+.nav-second {
+	font-size: 0.85rem;
+	font-weight: 700;
+}
+
+/** BOx 6 **/
+
+.fa-cart-shopping {
+
+font-size: 40px;
+
+}
+
+.cart {
+	font-size:0.85rem;
+	font-weight: 700;
+}
+
+
+
+/** Second Row **/
+
+.panel
+{
+	height: 40px;
+	background-color: #222f3d;
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.panel-options p {
+
+	display: inline;
+
+	margin-left: 15px;
+}
+
+.panel-options {
+
+	width: 70%;
+	font-size: 0.85rem;
+
+}
+
+.panel-deals {
+	font-size: 0.9rem;
+	font-weight: 700;
+}
+
+
+/** hearo-section **/
+
+.hero-section {
+
+	background-image: url("hero_image.jpg");
+
+	height: 600px;
+	background-size: cover;
+}
+
+.hero-message {
+	background-color: white;
+	color: black;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 0.85rems;
+	bottom: 25px;
+	position: relative;
+}
+
+.hero-message a {
+	color:#007185;
 }
